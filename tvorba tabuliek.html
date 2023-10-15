@@ -1,0 +1,81 @@
+<!--príkazom "body" ohraničíme telo stránky - kaskádový štýl programovania - CSS-->
+<body>
+
+
+
+<!--CSS-->
+<style>
+	table, th, td {border: 2px solid rgb(137, 49, 155);
+					border-collapse: collapse;
+					padding: 15px}
+	/* td {border: 2px solid black;} */
+	th, td {text-align: center;}
+
+
+</style>
+	<!--HTML-->
+	
+	<!--Tvorba tabuliek-->
+	<table style="width:50%"> <!--50 % veľkosti webového priehľadača-->
+	<!-- <table align="center"> -->
+
+	<!--riadok tabuľky-->
+	<tr>
+		<!--stĺpce tabuľky-->
+		<!--th znamená table header (hlavička)-->
+		<th>Meno</th>
+		<th>Priezvisko</th>
+		<th>Vek</th>
+		<th colspan=2>Súrodenci</th>
+		<th>Mama</th>
+	</tr>
+
+	<!--Nový riadok tabuľky, údaje sa zarovnávajú podľa prvého riadku-->
+	<tr>
+		<td>Oliver</td>
+		<td>Nový</td>
+		<td>17</td>
+		<td>Sestra</td>
+		<td>Brat</td>
+		<td>Miška</td>
+	</tr>
+
+	<tr>
+		<td>Silvia</td>
+		<td>Stará</td>
+		<td>18</td>
+		<td>Sestra</td>
+		<td>-</td> safdsamf
+		<td>Anna</td>
+	</tr>
+
+	</table>
+
+	<hr>
+
+	<table style="width: 100%;">
+		<caption>Názov tabuľky</caption>
+		<tr>
+			<th>Meno</th>
+			<td>Juro Jánošík</td>
+		</tr>
+
+		<tr>
+			<th rowspan=2>Telefón</th>
+			<td>0919888969</td>
+		</tr>
+
+		<tr>
+			<td>0911696159</td>
+		</tr>
+
+		<tr>
+			<th>Ulica</th>
+			<td>Repná 158</td>
+		</tr>
+
+	</table>
+
+
+
+</body>
